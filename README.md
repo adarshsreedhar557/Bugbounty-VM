@@ -30,14 +30,12 @@ This VM is not just a toolset; it's an entire ecosystem crafted with precision a
 
 ---
 
----
-
 
 ## 👤 Username and Password 
-**
--Username : bug
--Password : BOUNTY
-**  
+
+👤Username : bug
+🔐Password : BOUNTY
+ 
 
 ---
 
