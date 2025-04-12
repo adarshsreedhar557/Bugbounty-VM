@@ -30,6 +30,17 @@ This VM is not just a toolset; it's an entire ecosystem crafted with precision a
 
 ---
 
+---
+
+
+## 👤 Username and Password 
+**
+-Username : bug
+-Password : BOUNTY
+**  
+
+---
+
 ## 🌐 Primary Use Cases
 
 - ✔ Web Application Security Testing
