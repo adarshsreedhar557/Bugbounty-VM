@@ -15,38 +15,46 @@ This VM is not just a toolset; it's an entire ecosystem crafted with precision a
 
 ---
 
-## 🚀 Key Features
+## 📥 Download
 
-- ✅ Pre-installed bug bounty and pentesting tools
-- ✅ Organized directory structure for clean workflow
-- ✅ Optimized bash/zsh environment with custom aliases and functions
-- ✅ Integrated with notification systems (e.g., notify, ntfy.sh)
-- ✅ Custom scripts for automated recon, fuzzing, and reporting
-- ✅ Firejail and AppArmor profiles for tool sandboxing
-- ✅ Tmux + zsh pre-configured for multitasking
-- ✅ Works out-of-the-box on VirtualBox
-- ✅ Offline and air-gapped operational mode
-- ✅ Supports both CLI and GUI tools
+You can download the pre-configured **Kali Linux Bug Bounty VM** from the link below:
+
+🔗 [Download Kali Bug Bounty VM (Gofile)](https://gofile.io/d/wg9QxV)
+
+> 💡 *Ensure you verify the hash and integrity after download.*
 
 ---
 
+## 🚀 Key Features
+
+- ✅ Pre-installed bug bounty and pentesting tools  
+- ✅ Organized directory structure for clean workflow  
+- ✅ Optimized bash/zsh environment with custom aliases and functions  
+- ✅ Integrated with notification systems (e.g., notify, ntfy.sh)  
+- ✅ Custom scripts for automated recon, fuzzing, and reporting  
+- ✅ Firejail and AppArmor profiles for tool sandboxing  
+- ✅ Tmux + zsh pre-configured for multitasking  
+- ✅ Works out-of-the-box on VirtualBox  
+- ✅ Offline and air-gapped operational mode  
+- ✅ Supports both CLI and GUI tools  
+
+---
 
 ## 👤 Username and Password 
 
-👤Username : bug
-🔐Password : BOUNTY
- 
+👤 **Username**: `bug`  
+🔐 **Password**: `BOUNTY`  
 
 ---
 
 ## 🌐 Primary Use Cases
 
-- ✔ Web Application Security Testing
-- ✔ API Security Testing
-- ✔ Mobile Application Assessment
-- ✔ Network and Infrastructure Recon
-- ✔ CTFs and Red Teaming
-- ✔ Report Automation and PoC Generation
+- ✔ Web Application Security Testing  
+- ✔ API Security Testing  
+- ✔ Mobile Application Assessment  
+- ✔ Network and Infrastructure Recon  
+- ✔ CTFs and Red Teaming  
+- ✔ Report Automation and PoC Generation  
 
 ---
 
@@ -116,22 +124,20 @@ This VM is not just a toolset; it's an entire ecosystem crafted with precision a
 
 ## 📢 Wordlists & Payloads
 
-- [x] SecLists (Discovery, Fuzzing, Payloads, Passwords)
-- [x] PayloadsAllTheThings (XSS, LFI, SSRF, SSTI, etc.)
-- [x] DNSRecon Lists
-- [x] Fuzzing patterns for parameters and headers
-- [x] Custom Payloads by 0x0806 for bypassing filters and WAFs
+- [x] SecLists (Discovery, Fuzzing, Payloads, Passwords)  
+- [x] PayloadsAllTheThings (XSS, LFI, SSRF, SSTI, etc.)  
+- [x] DNSRecon Lists  
+- [x] Fuzzing patterns for parameters and headers  
+- [x] Custom Payloads by 0x0806 for bypassing filters and WAFs  
 
 ---
 
-
-
 ## 📚 Reporting Templates
 
-- Markdown-based reporting format (importable to Hacktivity/HTB/BBP)
-- CVSS Score Auto-Calculator
-- PoC + Screenshot + Request/Response format
-- Custom HTML exporter for client-ready reports
+- Markdown-based reporting format (importable to Hacktivity/HTB/BBP)  
+- CVSS Score Auto-Calculator  
+- PoC + Screenshot + Request/Response format  
+- Custom HTML exporter for client-ready reports  
 
 ---
 
@@ -144,17 +150,15 @@ This VM is not just a toolset; it's an entire ecosystem crafted with precision a
 | Disk      | 60 GB   | 100+ GB SSD  |
 | Platform  | VirtualBox | Any Hypervisor |
 
-
-
 ---
 
 ## 🔥 Customizations
 
-- Pre-loaded with ZSH + Oh-My-Zsh + Powerlevel10k
-- Tmux + Custom Splits + Logging Enabled
-- Visual Recon Dashboard in CLI
-- Vim + VSCode CLI with custom extensions
-- One-click service startup: Burp, Docker API Labs, Local HTTP server
+- Pre-loaded with ZSH + Oh-My-Zsh + Powerlevel10k  
+- Tmux + Custom Splits + Logging Enabled  
+- Visual Recon Dashboard in CLI  
+- Vim + VSCode CLI with custom extensions  
+- One-click service startup: Burp, Docker API Labs, Local HTTP server  
 
 ---
 
@@ -177,72 +181,3 @@ dalfox file urls.txt -o xss.txt
 
 # PoC Generation
 report_gen.sh target.com
-```
-
----
-
-## 🎮 CTF Add-ons (Optional)
-
-| Tool | Description |
-|------|-------------|
-| Ghidra | Reverse engineering suite |
-| Radare2 | Binary analysis and exploitation |
-| Pwntools | CTF scripting library |
-| PEDA | Python Exploit Development Assistant for GDB |
-
----
-
-## 🚮 Security and Privacy
-
-- All tools sandboxed using Firejail profiles
-- DNS over HTTPS enabled for anonymity
-- No telemetry tools
-- Optional VPN + Proxychains integration
-- Logs automatically rotated and scrubbed
-
----
-
-## ✨ Credits & Acknowledgements
-
-This VM is a love letter to the security community. Special thanks to:
-
-- ProjectDiscovery Team (Nuclei, httpx)
-- Tomnomnom (gau, ffuf, waybackurls)
-- Daniel Miessler (SecLists)
-- OWASP Community
-- Bug Bounty Platforms (HackerOne, Bugcrowd, Intigriti)
-- All open source contributors to InfoSec tools
-
----
-
-## 🙏 Support & Contributions
-
-- Found a bug or want to suggest a feature? [Open an issue](https://github.com/adarsh0806/kali-bugbounty-vm/issues)
-- Want to contribute? Fork this repo and submit a pull request
-- Share this repo with fellow hackers and spread the love
-
----
-
-## 😎 About the Author
-
-**Adarsh aka 0x0806**
-- 🌐 Website: [https://quantumseclabs.com](https://quantumseclabs.com)
-- 📧 Email: contact.adarshsree@gmail.com
-- 🌟 Instagram: [@0x0806](https://instagram.com/0x0806)
-- 📖 LinkedIn: [linkedin.com/in/adarsh-s-9b1162171](https://www.linkedin.com/in/adarsh-s-9b1162171/)
-
----
-
-## 🏆 License
-
-This repository is licensed under the MIT License. You are free to use, share, and modify it as long as proper credit is given.
-
-> Hack responsibly. Stay ethical. Report vulnerabilities the right way.
-
----
-
-**Star this repository if you found it helpful!** 🌟
-
-**Happy Hacking!** 
-
-&mdash; *0x0806*
